@@ -1,0 +1,22 @@
+.list {
+  max-width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.item {
+  width: calc((100% - 90px) / 4);
+  box-sizing: border-box;
+  transition: transform 250ms ease-in-out;
+}
+
+.item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

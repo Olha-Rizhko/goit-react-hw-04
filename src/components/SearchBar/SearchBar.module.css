@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  background-color: #0072ce;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.form {
+  margin: 0 auto;
+  display: flex;
+  gap: 12px;
+}
+
+.input {
+  padding: 8px 16px;
+  width: 400px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: aliceblue;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.input:focus-visible {
+  outline: none;
+}
+
+.btn {
+  background-color: aliceblue;
+  padding: 7px 24px;
+  border-radius: 4px;
+}

@@ -1,0 +1,18 @@
+.btn {
+  display: block;
+  margin: 20px auto 20px auto;
+  padding: 8px 16px;
+  background-color: #0072ce;
+  color: aliceblue;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: transform 250ms ease-in-out;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
